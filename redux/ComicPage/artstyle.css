@@ -1,0 +1,76 @@
+html,
+
+head {
+	
+		background-color:gray;
+	
+}
+
+.music:hover {
+	
+text-decoration: none;
+
+ color: purple;
+
+ background-color: orange;
+	
+} 
+
+.art:hover {
+	
+text-decoration: none;
+
+ color: lime;
+
+ background-color: brown;
+	
+} 
+
+ 
+a:hover {
+
+ text-decoration: none;
+
+ color: red;
+
+ background-color: gray;
+
+}
+
+a:active {
+
+ color: aqua;
+
+ background-color: orange;
+
+}
+
+h1 {
+	
+	margin: 12px 10px 0 30px;
+	color:green;
+	
+}
+
+
+
+footer {
+	
+	margin: 10px 0 0 50px;
+	
+}
+
+
+
+img {
+	
+	max-width:150px;
+	max-height:150px;
+	margin: 12px 0 0 10px;
+}
+
+body {
+	
+	background-color:white;
+	position:absolute;
+}

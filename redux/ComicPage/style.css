@@ -1,0 +1,68 @@
+html,
+
+head {
+	
+		background-color:purple;
+	
+}
+
+h1 {
+	
+	margin: 12px 10px 0 30px;
+	color:red;
+
+	
+	
+}
+
+footer {
+	
+	margin: 10px 0 0 50px;
+	
+}
+
+
+body {
+	
+	background-color:yellow;
+	
+}
+
+.art:hover {
+	
+text-decoration: none;
+
+ color: lime;
+
+ background-color: brown;
+	
+} 
+
+
+.music:hover {
+	
+text-decoration: none;
+
+ color: purple;
+
+ background-color: orange;
+	
+} 
+ 
+a:hover {
+
+ text-decoration: none;
+
+ color: red;
+
+ background-color: gray;
+
+}
+
+a:active {
+
+ color: aqua;
+
+ background-color: orange;
+
+}
