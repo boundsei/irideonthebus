@@ -6,11 +6,21 @@ head {
 	
 }
 
+a {
+
+	color: rgb(255, 194, 194);
+}
+
+a:visited {
+
+	color: rgb(255, 194, 194);
+}
+
 a:hover {
 
  text-decoration: none;
 
- color: red;
+ color: rgb(189, 253, 255);
 
  background-color: rgb(255, 244, 244);
 
@@ -18,7 +28,7 @@ a:hover {
 
 a:active {
 
- color: rgb(200, 212, 255);
+ color: rgb(255, 255, 255);
 
  background-color: rgb(250, 214, 148);
 
@@ -26,7 +36,7 @@ a:active {
 
 h1 {
 	
-	margin: 35px 10px 0 30px;
+	margin: 35px 00px 0 800px;
 	color:rgb(255, 251, 226);
 	text-shadow:
 	-1px -1px 0 #000,
@@ -43,12 +53,15 @@ p {
 	1px -1px 0 #000,
 	-1px 1px 0 #000,
 	1px 1px 0 #000;
+	width: 600px;
+	padding: 10px;
+	border: 100px rgb(175, 175, 0);
 }
 
 footer {
 	
-	margin: 40px 0 0 30px;
-	margin: 35px 10px 0 30px;
+	margin: 40px 0 0 90px;
+	margin: 35px 10px 0 90px;
 	color:rgb(255, 251, 226);
 	text-shadow:
 	-1px -1px 0 #000,
@@ -57,10 +70,22 @@ footer {
 	1px 1px 0 #000;
 }
 
+img {
+	max-width: 100%;
+	height: auto;
 
+}
 
 body {
 	
-	background-color:rgb(138, 204, 182);
+	background-color:rgb(245, 236, 206);
 	position:absolute;
+}
+
+audio {
+
+	position:fixed;
+	right:500px;
+	Bottom: 600px;
+
 }
