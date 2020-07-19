@@ -3,7 +3,7 @@
 header('Content-Type: text/javascript; charset=UTF-8');
 
 # Path to image folder
-$imageFolder = 'img/';
+$imageFolder = '/1.3 Vol 1/img/';
 
 # Show only these file types from the image folder
 $imageTypes = '{*.jpg,*.JPG,*.jpeg,*.JPEG,*.png,*.PNG,*.gif,*.GIF}';

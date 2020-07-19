@@ -1,0 +1,66 @@
+html,
+
+head {
+	
+		background-color:rgb(228, 255, 193);
+	
+}
+
+a:hover {
+
+ text-decoration: none;
+
+ color: red;
+
+ background-color: rgb(255, 244, 244);
+
+}
+
+a:active {
+
+ color: rgb(200, 212, 255);
+
+ background-color: rgb(250, 214, 148);
+
+}
+
+h1 {
+	
+	margin: 35px 10px 0 30px;
+	color:rgb(255, 251, 226);
+	text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+}
+
+p {
+	margin: 35px 10px 0 30px;
+		color:rgb(255, 251, 226);
+	text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+}
+
+footer {
+	
+	margin: 40px 0 0 30px;
+	margin: 35px 10px 0 30px;
+	color:rgb(255, 251, 226);
+	text-shadow:
+	-1px -1px 0 #000,
+	1px -1px 0 #000,
+	-1px 1px 0 #000,
+	1px 1px 0 #000;
+}
+
+
+
+body {
+	
+	background-color:rgb(138, 204, 182);
+	position:absolute;
+}
