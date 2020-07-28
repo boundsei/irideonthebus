@@ -20,18 +20,7 @@
 			<source src="1.3 Vol 1/Guided/Solid Warp to Level.wav" type="audio/mpeg">
 		  Your browser does not support the audio element.
 		  </audio>
-	<script>var folder = "1.3 Vol 1/img/";
 
-		$.ajax({
-			url : folder,
-			success: function (data) {
-				$(data).find("a").attr("href", function (i, val) {
-					if( val.match(/\.(jpg)$/) ) { 
-						$("body").append( "<img src='"+ folder + val +"'>" );
-					} 
-				});
-			}
-		});</script>
 
 	
 		</body>

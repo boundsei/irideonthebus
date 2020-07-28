@@ -1,4 +1,16 @@
 
+
+img {
+	-ms-animation: fadein 5s; /* Internet Explorer */
+	 -o-animation: fadein 5s; /* Opera < 12.1 */
+		animation: fadein 5s;
+		-ms-animation: moveleft 5s; /* Internet Explorer */
+		-o-animation: moveleft 5s; /* Opera < 12.1 */
+		   animation: moveleft 5s;
+}
+
+
+
 body {
 	 background-color: #CDFFAF;
 }
