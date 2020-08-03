@@ -31,8 +31,9 @@ h1 {
 		1px -1px 0 #000,
 		-1px 1px 0 #000,
 		1px 1px 0 #000;
-        position: absolute;
-        right: 100px;
+        flex-direction: column;
+        text-align: right;
+        margin-right: 40px;
 
 }
 
