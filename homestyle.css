@@ -1,8 +1,30 @@
+#text {
+    font-size: 160px;
+    color: coral;
+    text-shadow: -3px -3px 0 rgb(194, 95, 59),
+    3px -3px 0 rgb(194, 95, 59),
+    -3px 3px 0 rgb(194, 95, 59),
+    3px 3px 0 rgb(194, 95, 59);
+    text-align: left;
+  
+    position: absolute;
+    margin: 400px 0 0 100px;
+    -ms-animation: fadein 5s; /* Internet Explorer */
+    -o-animation: fadein 5s; /* Opera < 12.1 */
+       animation: fadein 5s;
+}
 
+br {
+    display: block;
+    content: "";
+    margin-top: 10px;
+    line-height: 10px;
+   
+}
 
 body {
    color:#000000;
-   background-color:#FFFFFF;
+   background-color:#d4fffb;
    background-image:url('Background Image');
    background-repeat:no-repeat;	
      
@@ -37,6 +59,8 @@ h1 {
 
 }
 
+
+
 .test {
 
       position: absolute;
@@ -52,13 +76,9 @@ h1 {
 
 
  
-.bus2 {
-        -ms-animation: fadein 5s; /* Internet Explorer */
-         -o-animation: fadein 5s; /* Opera < 12.1 */
-            animation: fadein 5s;
-}
 
-h1:hover {
+
+.boing:hover {
   /* Start the shake animation and make the animation last for 0.5 seconds */
   animation: shake 2s;
 
