@@ -71,57 +71,22 @@ h1 {
 
  }
  
- .tax:hover {
-	/* Start the shake animation and make the animation last for 0.5 seconds */
-	animation: shake 2s;
-  
-	/* When the animation is finished, start again */
-	animation-iteration-count: infinite;
-  }
-  
-  @keyframes shake {
-	0% { transform: translate(1px, 1px) rotate(0deg); }
-	10% { transform: translate(-1px, -2px) rotate(-1deg); }
-	20% { transform: translate(-3px, 0px) rotate(1deg); }
-	30% { transform: translate(3px, 2px) rotate(0deg); }
-	40% { transform: translate(1px, -1px) rotate(1deg); }
-	50% { transform: translate(-1px, 2px) rotate(-1deg); }
-	60% { transform: translate(-3px, 1px) rotate(0deg); }
-	70% { transform: translate(3px, 1px) rotate(-1deg); }
-	80% { transform: translate(-1px, -1px) rotate(1deg); }
-	90% { transform: translate(1px, 2px) rotate(0deg); }
-	100% { transform: translate(1px, -2px) rotate(-1deg); }
-  }
-  
+ 
 
 body {
 	 background-color: #CDFFAF;
 }
 
-h1 {
-
-   color: #FFFFFF;
-   text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
-       
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+   -webkit-text-fill-color: rgb(255, 255, 255);
+  
+   -webkit-text-stroke: 1.5px black;
+   filter:drop-shadow(1px 1px 1px rgb(0, 0, 0)); 
         right: 100px;
+    text-decoration: none;
 
 }
 
-a  { 
-    
-    color:#FFFFFF; 
-}
 
-a:hover { color:#72FF91; }
-
-a:active { color:#FFF6B8; }
-
-/* Don't underline links */
-
-a:link {text-decoration: none;}
-
-a:visited {text-decoration: none;}
