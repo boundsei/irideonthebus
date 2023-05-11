@@ -49,7 +49,7 @@ a  {
 
 }
 
-.boing:focus {
+:focus {
   outline: none;
   filter: none;
   -webkit-text-fill-color: coral;
