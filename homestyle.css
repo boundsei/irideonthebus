@@ -14,13 +14,6 @@
        animation: fadein 5s;
 }
 
-#text:focus {
-  outline: none;
-  filter: none;
-  -webkit-text-fill-color: coral;
-  -webkit-text-stroke: 3px rgb(194, 95, 59);
-}
-
 br {
     display: block;
     content: "";
@@ -54,6 +47,13 @@ a  {
         margin-right: 40px;
        
 
+}
+
+.boing:focus {
+  outline: none;
+  filter: none;
+  -webkit-text-fill-color: coral;
+  -webkit-text-stroke: 3px rgb(194, 95, 59);
 }
 
 
