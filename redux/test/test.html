@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image Gallery</title>
+    <style>
+        .image-container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .image-container img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Gallery</h1>
+    <div class="image-container" id="gallery"></div>
+
+    <script>
+        fetchImages();
+
+        async function fetchImages() {
+            const response = await fetch('imageFolder.php');
+            const fileNames = await response.json();
+
+            const gallery = document.getElementById('gallery');
+            fileNames.forEach(fileName => {
+                const img = document.createElement('img');
+                img.src = `images/${fileName}`;
+                gallery.appendChild(img);
+            });
+        }
+    </script>
+</body>
+</html>
