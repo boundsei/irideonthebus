@@ -5,7 +5,7 @@ html {
 
 #text {
     word-spacing: 1px;
-    font-size: 160px;
+    font-size: 60px;
  font-family: 'Lucida', monospace;
     filter:drop-shadow(2px 2px 2px rgb(0, 0, 0)); 
     -webkit-text-fill-color: coral;
