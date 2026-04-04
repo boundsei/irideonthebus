@@ -4,6 +4,19 @@
 
 }
 
+.goldman-regular {
+  font-family: "Goldman", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.goldman-bold {
+  font-family: "Goldman", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 html {
     min-height: 100%;
     box-shadow: 0 0 500px rgba(0, 0, 0, 0.9) inset;
@@ -81,7 +94,7 @@ a:link {
     width: 100%;
     margin-bottom: 10px;
   
-	font-family: Tahoma;
+	font-family: Pixelify Sans, sans-serif;
     
 }
 
@@ -114,7 +127,7 @@ a:link {
 h1 {
     color: black;
     font-size: 28px;
-	font-family: Comic Sans MS;
+	font-family: Tahoma;
     margin-left: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
